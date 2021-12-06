@@ -1,7 +1,8 @@
 import { alpha, Theme } from "@mui/material";
 import { makeStyles } from "@mui/styles";
+import theme from "../../styles/theme";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   root: {
     backgroundColor: "#e8e8e8",
     height: "100vh",
@@ -9,9 +10,12 @@ const useStyles = makeStyles((theme) => ({
     alignContent: "center",
   },
   text: {
-    fontSize: 50,
+    fontSize: "3.75rem",
     lineHeight: 1.3,
-    fontWeight: 420,
+    fontWeight: 440,
+    [theme.breakpoints.down("lg")]: {
+      fontSize: "2.1rem",
+    },
   },
 }));
 

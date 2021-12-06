@@ -11,14 +11,20 @@ export default function Homepage() {
   return (
     <div>
       <Header />
-      <Grid container className={classes.root}>
-        <Grid container item xs={5}>
-          <Searchtab />
-        </Grid>
-        <Grid container item xs={6}>
-          <Typography className={classes.text} style={{ fontSize: "3.75rem" }}>
+      <Grid
+        container
+        className={classes.root}
+        sx={{
+          flexDirection: { xs: "row", sm: "row-reverse" },
+        }}
+      >
+        <Grid container item xs={10} sm={6}>
+          <Typography className={classes.text}>
             THE SMARTER, FASTER, BETTER way to transact commercial real estate
           </Typography>
+        </Grid>
+        <Grid container item xs={11} sm={5}>
+          <Searchtab />
         </Grid>
       </Grid>
     </div>

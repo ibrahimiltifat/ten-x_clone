@@ -9,6 +9,7 @@ import {
   FormGroup,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
+import { ThemeProvider } from "@mui/styles";
 export default function Header() {
   const classes = useStyles();
   return (
