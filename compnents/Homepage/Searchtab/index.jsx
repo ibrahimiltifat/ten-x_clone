@@ -18,12 +18,13 @@ export default function Searchtab() {
   const [onclick, setonclick] = useState(false);
 
   return (
-    <Grid container alignItems="center">
+    <Grid container alignItems="center" xs={12}>
       <Tab />
       <Grid
         container
         item
-        xs={6}
+        lg={6}
+        xs={7}
         className={classes.searchContainer}
         justifyContent="space-around"
         // alignItems="center"
