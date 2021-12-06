@@ -23,8 +23,9 @@ export default function Searchtab() {
       <Grid
         container
         item
-        lg={6}
-        xs={7}
+        md={6}
+        sm={8}
+        xs={9}
         className={classes.searchContainer}
         justifyContent="space-around"
         // alignItems="center"
