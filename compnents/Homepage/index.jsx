@@ -20,7 +20,9 @@ export default function Homepage() {
       >
         <Grid container item xs={10} sm={6}>
           <Typography className={classes.text}>
-            THE SMARTER, FASTER, BETTER way to transact commercial real estate
+            <span className={classes.text1}>THE SMARTER</span>,{" "}
+            <span className={classes.text2}>FASTER, BETTER </span>
+            way to transact commercial real estate
           </Typography>
         </Grid>
         <Grid container item xs={11} sm={5}>

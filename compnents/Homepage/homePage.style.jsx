@@ -10,6 +10,25 @@ const useStyles = makeStyles(() => ({
     alignContent: "center",
   },
   text: {
+    color: "#black",
+    fontSize: "3.75rem",
+    lineHeight: 1.3,
+    fontWeight: 440,
+    [theme.breakpoints.down("lg")]: {
+      fontSize: "2.1rem",
+    },
+  },
+  text1: {
+    color: "#164e97",
+    fontSize: "3.75rem",
+    lineHeight: 1.3,
+    fontWeight: 440,
+    [theme.breakpoints.down("lg")]: {
+      fontSize: "2.1rem",
+    },
+  },
+  text2: {
+    color: "#c4232d",
     fontSize: "3.75rem",
     lineHeight: 1.3,
     fontWeight: 440,
