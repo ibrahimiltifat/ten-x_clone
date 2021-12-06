@@ -10,21 +10,23 @@ const useStyles = makeStyles((theme) => ({
   },
   listText: {
     color: "white",
+    textAlign: "center",
   },
   listTextclick: {
     color: "black",
+    textAlign: "center",
   },
 
   textContainer: {
     height: "2rem",
   },
+  textContainerclick: {
+    backgroundColor: "white",
+    height: "2rem",
+  },
   SearchIcon: {
     color: "white",
     fontSize: "2.75rem",
-  },
-  onclick: {
-    height: "3rem",
-    backgroundColor: "red",
   },
   searchContainer: {
     height: "29rem",

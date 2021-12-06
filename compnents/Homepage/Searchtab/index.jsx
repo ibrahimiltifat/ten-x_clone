@@ -13,46 +13,13 @@ import SearchIcon from "@mui/icons-material/Search";
 import { useState } from "react";
 import Tab from "./Tab";
 
-
 export default function Searchtab() {
   const classes = useStyles();
   const [onclick, setonclick] = useState(false);
 
   return (
     <Grid container alignItems="center">
-      <Grid
-        container
-        item
-        xs={3}
-        className={classes.list}
-        alignItems="center"
-        justifyContent="center"
-      >
-        <Grid item xs={7} className={classes.textContainer}>
-          <SearchIcon className={classes.SearchIcon} />
-        </Grid>
-        <Grid item xs={7} className={classes.textContainer}>
-          <Typography className={classes.listText}>All</Typography>
-        </Grid>
-        <Grid item xs={7} className={classes.textContainer}>
-          <Typography className={classes.listText}>Office</Typography>
-        </Grid>
-        <Grid item xs={7} className={classes.textContainer}>
-          <Typography className={classes.listText}>MultiFamily</Typography>
-        </Grid>
-        <Grid item xs={7} className={classes.textContainer}>
-          <Typography className={classes.listText}>Hotel</Typography>
-        </Grid>
-        <Grid item xs={7} className={classes.textContainer}>
-          <Typography className={classes.listText}>Retail</Typography>
-        </Grid>
-        <Grid item xs={7} className={classes.textContainer}>
-          <Typography className={classes.listText}>Industrial</Typography>
-        </Grid>
-        <Grid item xs={7} className={classes.textContainer}>
-          <Typography className={classes.listText}>Other</Typography>
-        </Grid>
-      </Grid>
+      <Tab />
       <Grid
         container
         item
