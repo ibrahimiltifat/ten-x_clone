@@ -49,7 +49,13 @@ export default function Header() {
           <Typography className={classes.text}>Login/Sign up</Typography>
         </Grid>
       </Grid>
-      <Grid item xs={3}>
+      <Grid
+        item
+        xs={3}
+        sx={{
+          display: { xs: "none", md: "block" },
+        }}
+      >
         <TextField
           size="small"
           placeholder="State,City,zip,address or Id"
