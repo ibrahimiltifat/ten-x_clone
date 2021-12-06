@@ -11,6 +11,7 @@ const useStyles = makeStyles(() => ({
     borderRadius: "10px",
     height: "6rem",
     alignItems: "center",
+    position: "fixed",
   },
   text: {
     fontSize: "1.25rem",

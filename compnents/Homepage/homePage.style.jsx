@@ -8,6 +8,10 @@ const useStyles = makeStyles(() => ({
     height: "100vh",
     justifyContent: "center",
     alignContent: "center",
+    paddingTop: "9rem",
+    [theme.breakpoints.down("sm")]: {
+      paddingTop: "12rem",
+    },
   },
   text: {
     color: "#black",

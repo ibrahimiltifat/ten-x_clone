@@ -10,7 +10,6 @@ export default function Homepage() {
   const classes = useStyles();
   return (
     <div>
-      <Header />
       <Grid
         container
         className={classes.root}
